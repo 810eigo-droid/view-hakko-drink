@@ -57,3 +57,7 @@ body::after { content: "SAMPLE"; position: fixed; top: 45%; left: 50%; transform
 @media (max-width:359px) { .section-action,.faq,.final-cta { padding-inline: 20px; } .price-pair { gap: 8px; } .price-pair span { font-size: 10px; } .apply-button { font-size: 20px; padding-inline: 28px; } }
 @media (min-width:600px) { .section-action,.faq,.final-cta { padding-inline: 48px; } .faq { padding-block: 65px; } .faq h2 { font-size: 36px; } summary,.answer { font-size: 17px; } .cta-note { font-size: 14px; } .price-pair span { font-size: 14px; } }
 @media print { .fixed-cta,.skip-link { display: none; } .footer { padding-bottom: 30px; } }
+.faq h2 { color: #c34e2d; text-shadow: 1px 2px #ffddb4; }
+.question-mark, summary::after { color: #c64e2d; }
+details[open] { border-color: #e68e52; background: #fff2e4; }
+.price-pair > div { border-color: #df9757; background: linear-gradient(115deg,#fffdf6,#ffe2c8); }
