@@ -64,3 +64,5 @@ details[open] { border-color: #e68e52; background: #fff2e4; }
 .workshop-photo { margin: 0; padding: 10px 0 24px; background: #fff9e9; }
 .workshop-photo img { mask-image: linear-gradient(transparent,black 12%,black 82%,transparent); }
 .workshop-photo figcaption { text-align: right; padding-inline: 24px; margin-top: -10px; font-size: 10px; color: #697258; }
+.workshop-intro { padding: 28px 20px 6px; text-align: center; font: 700 clamp(17px,4.5vw,25px)/1.9 var(--serif); color: #234e2c; }
+.image-caption { text-align: right; padding: 4px 20px 8px; font-size: 10px; color: #697258; background: #fff9e9; }
