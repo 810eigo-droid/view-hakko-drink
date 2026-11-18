@@ -118,3 +118,15 @@ details[open] { border-color: #e68e52; background: #fff2e4; }
 .voice-copy p { font-size: 15px; line-height: 1.95; color: #514837; }
 .voices-note { padding: 20px 26px 0; font-size: 11px; line-height: 1.85; color: #726653; }
 @media (min-width:600px) { .voice-copy p { font-size: 17px; } .voice-copy h3 { font-size: 24px; } .voice-photo { max-height: 550px; } }
+
+/* Anonymous testimonial cards, 2026-11-18 */
+.voice-card-anonymous .voice-card-header { position:relative; padding:26px 20px 20px; background:radial-gradient(ellipse at 50% 0,#fffdf6,#f4e9d5); }
+.voice-botanical { position:absolute; right:8px; top:12px; width:100px; color:#ad965d; opacity:.7; }
+.voice-botanical svg { width:100%; height:auto; }
+.voice-monogram { display:grid; place-items:center; width:64px; height:64px; margin:0 auto; border:1px solid #c1a568; outline:1px solid #d9c9a6; outline-offset:5px; border-radius:50%; background:#fffcf3; color:#94723e; font:italic 32px/1 Georgia,serif; }
+.voice-card-anonymous .voice-name { font-size:18px; margin-top:16px; letter-spacing:.15em; }
+.voice-card-anonymous .voice-copy { position:relative; padding-top:25px; }
+.voice-quote { display:block; height:32px; font:58px/1 Georgia,serif; color:#b99c61; }
+.voice-card-anonymous .voice-copy h3 { margin-top:8px; }
+.voice-endmark { display:flex; align-items:center; justify-content:center; gap:12px; margin-top:24px; color:#b69c68; font-size:9px; }
+.voice-endmark::before,.voice-endmark::after { content:""; width:45px; height:1px; background:#dacba9; }
