@@ -95,3 +95,26 @@ details[open] { border-color: #e68e52; background: #fff2e4; }
 .artwork-mail { left: 51.01%; top: 77.9%; width: 42.36%; height: 9.53%; border-radius: 12px; }
 .artwork-link:hover { background: #fff2; box-shadow: inset 0 0 0 2px #d2a54b; }
 .artwork-link:focus-visible { outline: 3px solid #234c2b; outline-offset: 2px; background: #ffffff30; }
+.voices-slider { padding: 40px 0 32px; background: linear-gradient(135deg,#f9f2e4,#efe2cb); border-block: 1px solid #ccb27b; }
+.voices-header { padding-inline: 24px; text-align: center; }
+.voices-ornament { color: #b79242; font-size: 20px; margin-bottom: 8px; }
+.voices-header h2 { font: 800 clamp(25px,6.5vw,35px)/1.6 var(--serif); color: #493722; }
+.voices-header > p { font-size: 12px; margin-top: 8px; color: #726049; }
+.voices-controls { display: flex; align-items: center; justify-content: center; gap: 24px; margin-top: 20px; }
+.voices-controls button { width: 44px; height: 44px; border: 1px solid #b99751; border-radius: 50%; background: #fffbf2; color: #70532a; font: 30px/1 Georgia,serif; cursor: pointer; box-shadow: 0 3px 0 #b3986133; }
+.voices-controls button:disabled { opacity: .35; cursor: default; box-shadow: none; }
+.voices-controls button:focus-visible,.voices-track:focus-visible { outline: 3px solid #275335; outline-offset: 3px; }
+.voice-position { font: 600 16px/1.5 var(--serif); min-width: 48px; color: #70532a; }
+.voices-header .voices-hint { font-size: 11px; margin: 12px 0 20px; }
+.voices-track { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: 22px; padding: 2px 22px 15px; scrollbar-width: thin; scrollbar-color: #bd9f62 #eadfc9; position: relative; }
+.voice-card { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; background: #fffcf5; border: 1px solid #cbb47e; border-radius: 18px 5px; overflow: hidden; box-shadow: 0 5px 10px #614a2210; }
+.voice-card-header { padding: 20px 20px 16px; text-align: center; background: linear-gradient(110deg,#fff6de,#f0dfb9); border-bottom: 1px solid #d3bd88; }
+.voice-award { display: inline-block; background: #735337; color: #fff7e3; padding: 4px 18px; border: 1px solid #bd9b50; border-radius: 999px; font: 600 13px/1.6 var(--serif); }
+.voice-name { margin-top: 10px; font: 700 23px/1.6 var(--serif); color: #493722; }
+.voice-name small { font-size: 14px; }
+.voice-photo { width: calc(100% - 24px); margin: 14px 12px 0; aspect-ratio: 3 / 4; object-fit: contain; background: #f3eee5; }
+.voice-copy { padding: 23px 22px 27px; }
+.voice-copy h3 { font: 700 19px/1.65 var(--serif); color: #31523a; padding-bottom: 15px; border-bottom: 1px solid #d8c69e; margin-bottom: 15px; }
+.voice-copy p { font-size: 15px; line-height: 1.95; color: #514837; }
+.voices-note { padding: 20px 26px 0; font-size: 11px; line-height: 1.85; color: #726653; }
+@media (min-width:600px) { .voice-copy p { font-size: 17px; } .voice-copy h3 { font-size: 24px; } .voice-photo { max-height: 550px; } }
