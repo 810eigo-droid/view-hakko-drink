@@ -13,7 +13,7 @@ p,h1,h2,h3 { margin: 0; }
 .skip-link:focus { top: 10px; }
 .preview-label { text-align: center; padding: 3px 10px; font-size: 10px; background: #f7e7b9; color: #695720; letter-spacing: .08em; }
 .fv { position: relative; }
-.fv-apply { display: block; position: absolute; top: 83.4%; left: 4.5%; width: 91%; height: 9%; border-radius: 999px; }
+.fv-apply { display: block; position: absolute; top: 77.3%; left: 6.3%; width: 87.4%; height: 8.7%; border-radius: 999px; }
 .fv-apply:hover { background: #ffffff14; }
 .fv-apply:focus-visible { outline: 4px solid white; outline-offset: -8px; box-shadow: 0 0 0 4px var(--green); }
 .image-section { position: relative; }
